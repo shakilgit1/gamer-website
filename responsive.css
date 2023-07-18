@@ -1,0 +1,36 @@
+/* for tablet or medium devices */
+
+@media screen and (max-width:768px) {
+    .nav-content{
+        flex-direction:column;
+    }
+    .btn-content{
+        flex-direction: column;    
+    }
+    .btn-content a{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .follow-btn{
+        margin-top: 30px;
+    }
+}
+
+/* for mobile devices */
+
+@media screen and (max-width:425px) {
+    .nav-content{
+        flex-direction: column;
+    }
+    .btn-content{
+        flex-direction: column;
+        
+    }
+    .btn-content a{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .follow-btn{
+        margin-top: 30px;
+    }
+}
