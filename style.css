@@ -265,3 +265,67 @@ body {
 .card:hover {
   border: 1px solid #f948b2;
 }
+
+/* footer styles */
+
+.footer-container{
+  width: 100%;
+  min-height: 50vh;
+  background-color: #0B0223;
+  align-items: center;
+  color: white;
+
+
+}
+.foot-title{
+  color: white;
+  
+}
+.foot-logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+ 
+}
+.foot-text{
+
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+ 
+}
+.foot-icon{
+
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  
+}
+.foot-pera{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.copyrights{
+  display: flex;
+  justify-content: center;
+}
+.terms{
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.60);
+  margin-bottom: 20px;
+
+}
+.copy-r{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.60);
+}
+.footer-all-items{
+  padding: 80px 0;
+}

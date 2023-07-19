@@ -119,4 +119,32 @@
       .online-game-cards{
         flex-direction: column;
       }
+      /* footer */
+      .foot-text{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+       
+      }
+      .foot-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        margin-left: 70px;
+      }
+      .foot-pera{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+        margin-left: 0px;
+      }
+      .copyrights {
+       
+        margin-left: 100px;
+        width: 200px;
+        margin-top:  30px;
+       
+      }
 }
