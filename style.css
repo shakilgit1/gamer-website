@@ -192,3 +192,35 @@ body {
   left: 80px;
   border: 1px solid #f948b2;
 }
+
+/* cards section styles */
+
+.cards-container{
+  width: 80%;
+  margin: 120px auto 50px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: center;
+
+}
+.card{
+  /* width: 180px; */
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 5px;
+  border-radius: 50px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.cards-container img{
+  width: 25%;
+}
+.card h4{
+  font-size: 12px;
+ 
+}
+.card:hover{
+  border: 1px solid #f948b2;
+}
