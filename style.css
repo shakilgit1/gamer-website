@@ -75,6 +75,7 @@ body {
   width: 100%;
   min-height: 65vh;
   display: flex;
+  background-color: #97979911;
 }
 .banner-text-content {
   width: 50%;
