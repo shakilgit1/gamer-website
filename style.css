@@ -8,7 +8,7 @@ body {
 }
 .nav-container {
   width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .nav-content {
   display: flex;
@@ -44,27 +44,103 @@ body {
   margin-right: 32px;
 }
 .btn-content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.follow-btn{
-    background-color: rgba(11, 2, 35, 0.10);
-    border: none;
-    border-radius: 8px;
-    padding: 10px;
-    align-items: center;
-    color: #3c354f;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
+.follow-btn {
+  background-color: rgba(11, 2, 35, 0.1);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  align-items: center;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }
-.fa-youtube{
-    color: red;
-    font-size: 20px;
-    margin-left: 10px;
+.fa-youtube {
+  color: red;
+  font-size: 20px;
+  margin-left: 10px;
 }
-.fa-tiktok{
-    color: black;
-    font-size: 20px;
-    margin-left: 10px;
+.fa-tiktok {
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* banner section styles */
+
+.banner-section {
+  width: 100%;
+  min-height: 65vh;
+  display: flex;
+}
+.banner-text-content {
+  width: 50%;
+  background-image: url("./images/Group\ 14.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+.banner-text-items {
+  margin-left: 200px;
+  margin-top: 70px;
+}
+.banner-text-items h1 {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.banner-text-items h2 {
+  font-size: 48px;
+  color: #0b0223;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.banner-text-items p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.banner-text-items button{
+  color: #fff ;
+  background-color: #FF42A5;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.banner-text-items .go-btn{
+  background-color: #4EC5F7;
+}
+.banner-img {
+  width: 50%;
+  height: 40vh;
+}
+.banner-section img {
+  width: 70%;
+  margin: 15px 50px;
+}
+.fa-circle-play{
+  color: #f948b2;
+  margin-right: 10px;
+}
+.fa-download{
+  color: #f948b2;
+  margin-right: 10px;
+}
+.fa-user-group{
+  margin-right: 10px;
 }
