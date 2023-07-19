@@ -36,6 +36,13 @@
         width: 90%;
         
       }
+      .play-img-content .small-img {
+        width: 30%;
+        position: absolute;
+        top: 200px;
+        left: 140px;
+    
+      }
         
 }
 
@@ -78,6 +85,31 @@
         width: 80%;
         
       }
+      .play-container {
+        width: 80%;
+        flex-direction: column; 
+      }
+    
+      .play-img-content .play-img {
+        width: 70%;
+        margin-left: 80px;
+      }
+      .play-img-content .small-img {
+        width: 30%;
+        position: absolute;
+        top: 140px;
+        left: 40px;
+        border: 1px solid #f948b2;
+      }
+    
+      .text-content{
+        margin-bottom: 50px;
         
-
+      }
+      .text-content h2, p{
+        text-align: center;
+      }
+      .text-content  p{
+        text-align: center;
+      }
 }

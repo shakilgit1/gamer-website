@@ -110,9 +110,9 @@ body {
   font-weight: 500;
   margin-bottom: 10px;
 }
-.banner-text-items button{
-  color: #fff ;
-  background-color: #FF42A5;
+.banner-text-items button {
+  color: #fff;
+  background-color: #ff42a5;
   padding: 15px 25px;
   border: none;
   border-radius: 30px;
@@ -121,9 +121,10 @@ body {
   text-transform: uppercase;
   margin-right: 15px;
   margin-top: 20px;
+  cursor: pointer;
 }
-.banner-text-items .go-btn{
-  background-color: #4EC5F7;
+.banner-text-items .go-btn {
+  background-color: #4ec5f7;
 }
 .banner-img {
   width: 50%;
@@ -133,14 +134,61 @@ body {
   width: 70%;
   margin: 15px 50px;
 }
-.fa-circle-play{
+.fa-circle-play {
   color: #f948b2;
   margin-right: 10px;
 }
-.fa-download{
+.fa-download {
   color: #f948b2;
   margin-right: 10px;
 }
-.fa-user-group{
+.fa-user-group {
   margin-right: 10px;
+}
+
+/* play section styles */
+
+.play-container {
+  width: 80%;
+  min-height: 50vh;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play-inst{
+ color: #f948b2;
+}
+.play-text{
+  color: #0B0223;
+}
+.text-content p {
+  color: #534c64;
+  text-align: right;
+  font-size: 10px;
+  margin-top: 20px;
+}
+.play-img-content {
+  position: relative;
+}
+.text-content h2 {
+  text-align: right;
+  font-size: 30px;
+  font-weight: 700;
+}
+.text-content p {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+}
+.play-img-content .play-img {
+  width: 70%;
+  margin-left: 200px;
+}
+.play-img-content .small-img {
+  width: 30%;
+  position: absolute;
+  top: 360px;
+  left: 80px;
+  border: 1px solid #f948b2;
 }
