@@ -115,4 +115,8 @@
       .cards-container{
         grid-template-columns: repeat(3,1fr);
       }
+      /* online game styles */
+      .online-game-cards{
+        flex-direction: column;
+      }
 }
